@@ -1,12 +1,15 @@
-// import { useState } from 'react'
-import './App.css'
+/** @format */
+
+import "./App.css";
+import Card from "./components/Card";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  )
+    <div className="min-h-screen bg-yellow-300 flex items-center justify-center p-8">
+      <Card />
+    </div>
+  );
 }
 
-export default App
+export default App;
+
