@@ -5,7 +5,7 @@ import ImageAvatar from "../images/image-avatar.webp";
 const Card = () => {
   return (
     <section className="relative group">
-      <div className="relative z-20 bg-white p-4 rounded-2xl border border-black flex flex-col gap-4 max-w-[365px] text-left">
+      <div className="relative z-20 bg-white p-4 rounded-2xl border border-black flex flex-col gap-4 max-w-[365px] text-left shadow-cardShadow">
         <img
           src={IllustrationImage}
           className="rounded-lg"
@@ -29,7 +29,7 @@ const Card = () => {
           <p className="font-bold text-sm">Greg Hooper</p>
         </div>
       </div>
-      <div className="absolute z-10 top-2 group-hover:top-4 left-2 group-hover:left-4 transition-all bg-black h-full w-full rounded-2xl" />
+      {/* <div className="absolute z-10 top-2 group-hover:top-4 left-2 group-hover:left-4 transition-all bg-black h-full w-full rounded-2xl" /> */}
     </section>
   );
 };

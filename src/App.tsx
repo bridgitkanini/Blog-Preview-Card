@@ -2,14 +2,16 @@
 
 import "./App.css";
 import Card from "./components/Card";
+import Text from "./components/Text";
 
 function App() {
   return (
-    <div className="min-h-screen bg-yellow-300 flex items-center justify-center p-8">
-      <Card />
+    <div>
+      <div className="min-h-screen bg-bridgitGreen flex justify-center items-center p-8">
+        <Card />
+      </div>
     </div>
   );
 }
 
 export default App;
-

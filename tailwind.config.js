@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fonts: {},
+    containers: {},
+    extend: {
+      colors: {
+        bridgitGreen: '#059669',
+      },
+      boxShadow: {
+        cardShadow: '12px 12px 2px 5px red'
+      },
+    },
   },
   plugins: [],
 }
